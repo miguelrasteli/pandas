@@ -40,7 +40,7 @@ Alternatively, you can install the necessary components on the commandline using
 Alternatively, you could use the `WSL <https://learn.microsoft.com/en-us/windows/wsl/install>`_
 and consult the ``Linux`` instructions below.
 
-MacOS
+macOS
 ~~~~~
 
 To use the :ref:`conda <contributing.conda>`-based compilers, you will need to install the
@@ -138,12 +138,12 @@ Consult the `docs <https://github.com/pyenv/pyenv>`_ for setting up pyenv.
 
 **Windows**
 
-Below is a brief overview on how to set-up a virtual environment with Powershell
+Below is a brief overview on how to set up a virtual environment with PowerShell
 under Windows. For details please refer to the
 `official virtualenv user guide <https://virtualenv.pypa.io/en/latest/how-to/usage.html#activate-a-virtual-environment>`__.
 
 Use an ENV_DIR of your choice. We'll use ``~\\virtualenvs\\pandas-dev`` where
-``~`` is the folder pointed to by either ``$env:USERPROFILE`` (Powershell) or
+``~`` is the folder pointed to by either ``$env:USERPROFILE`` (PowerShell) or
 ``%USERPROFILE%`` (cmd.exe) environment variable. Any parent directories
 should already exist.
 
